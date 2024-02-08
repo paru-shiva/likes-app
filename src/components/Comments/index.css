@@ -1,0 +1,53 @@
+/* Write your CSS here */
+.comments-component {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.comments-input-card {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 250px;
+}
+
+.comments-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.comments-image {
+  width: 50%;
+  padding: 40px;
+}
+
+.your-name-field {
+  padding: 5px 15px 5px 5px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.your-comment-field {
+  padding: 5px 15px 5px 5px;
+  margin: 10px;
+  border-radius: 5px;
+  border: 2px solid;
+}
+
+.submit-btn {
+  padding: 8px 15px 8px 15px;
+  margin: 10px;
+  background-color: #0284c7;
+  color: white;
+  border-radius: 5px;
+  border: 0px;
+}
+
+.user-comments {
+  margin-top: 25px;
+  margin-left: 15%;
+  width: 70%;
+}
